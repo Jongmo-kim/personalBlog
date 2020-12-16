@@ -1,0 +1,39 @@
+*{
+    border: 1px solid black;
+    box-sizing: content-box;    
+}
+.header{
+    height: 300px;
+    width: 100%;
+    background-image: url(../../image/index/banner.png);
+    background-repeat: no-repeat;
+}
+.sidebar{
+    display:flex;
+    width: 20%;
+}
+.content{
+    display:flex;
+    width: 80%;
+}
+.container{
+    display:flex;
+}
+.info-form{
+
+    width:100%;
+}
+
+.info-form h3 {
+    display:inline-block;
+}
+.info-form span{
+    text-align: end;
+}
+
+.infoImage{
+    height: 151px;
+    width: 151px;
+    background-image: url(../../image/index/thumb.png);
+    background-repeat: no-repeat;
+}
